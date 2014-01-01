@@ -1,6 +1,4 @@
 
-MAKE = make
-
 all:
 	(cd src && $(MAKE))
 	mv src/xdiamonds .
